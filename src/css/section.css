@@ -1,0 +1,62 @@
+form{
+    display: grid;
+    column-gap: 50px;
+    padding:70px  70px  40px;
+    margin:0 20%;
+    row-gap: 20px;
+}
+form input{
+    padding: 12px;
+    border-radius:5px ;
+    border: 1px solid #D5D4D8;
+}
+form input:nth-last-child(1){
+    grid-column: 1/ span 2;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Poppins" sans-serif   ;
+}
+input:focus{
+    outline: none;
+}
+.meme-img{
+    width: 100%;
+    height: 60vh;
+
+
+    
+}
+.img-content{
+    position: relative;
+    width: 50%;
+    margin: 0 20%;
+    padding: 0 70px;
+}
+.img-content h2{
+    position:absolute;
+    color: #fff;
+    max-width:50% ;
+    font-family:"Impact";
+    font-weight: 900;
+    font-size: 36px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    line-height: 39px;
+    letter-spacing:1.5px;
+    word-wrap:break-word;
+}
+.img-content .top{
+    top: 0;
+}
+.img-content .bottom{
+    bottom: 20px;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
